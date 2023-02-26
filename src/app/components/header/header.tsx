@@ -33,16 +33,16 @@ function HeaderComponent () {
                 <div className={`flex-1 justify-self-end pb-3 md:block md:pb-0 md:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'}`}>
                     <ul className="h-screen md:h-auto items-center justify-center md:flex">
                         <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 mb:border-b-0 hover:bg-purple-900 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                            <Link href="#about" onClick={() => setNavbar(!navbar)}>About</Link>
+                            <a href="#about" onClick={() => setNavbar(!navbar)}>About</a>
                         </li>
                         <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 mb:border-b-0 hover:bg-purple-900 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                            <Link href="#blog" onClick={() => setNavbar(!navbar)}>Blogs</Link>
+                            <a href="#blog" onClick={() => setNavbar(!navbar)}>Blogs</a>
                         </li>
                         <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 mb:border-b-0 hover:bg-purple-900 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                            <Link href="#contact" onClick={() => setNavbar(!navbar)}>Contact</Link>
+                            <a href="#contact" onClick={() => setNavbar(!navbar)}>Contact</a>
                         </li>
                         <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 mb:border-b-0 hover:bg-purple-900 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                            <Link href="#projects" onClick={() => setNavbar(!navbar)}>Projects</Link>
+                            <a href="#projects" onClick={() => setNavbar(!navbar)}>Projects</a>
                         </li>
                     </ul>
                 </div>
